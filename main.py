@@ -15,14 +15,20 @@ def render(game, current):
         r = game['rooms']
         c= r[current]
 
+        print('n\n\ You are in the {name}' .format(name=c ['name']))
+        print(c['desc'])
+
 
 def check_input():
     '''Check Player Input'''
     response = input ('What would the mighty nerd (You.) like to do?')
     return response
 
-def update(selectiom, game, current):
+def update(selection, game, current):
     '''Update our location, if possible etc.'''
+    for e in game['rooms'][current]['exits']:
+        if e['verb'] == response:
+            current = e['target']
     return True
 
 def main():
@@ -32,7 +38,14 @@ def main():
     # Your game goes here!
 
     current = 'WHOUS'
-
+    quit = False
+    while not quit:
+        #render
+        render()
+        #check player input
+        check_input()
+        #update
+        update()
 
     return True
 
