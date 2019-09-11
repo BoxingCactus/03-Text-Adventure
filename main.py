@@ -10,6 +10,20 @@ logger = logging.getLogger(__name__)
 
 
 
+def render(game, current):
+        '''Display the current room, moves and points'''
+        r = game['rooms']
+        c= r[current]
+
+
+def check_input():
+    '''Check Player Input'''
+    response = input ('What would the mighty nerd (You.) like to do?')
+    return response
+
+def update(selectiom, game, current):
+    '''Update our location, if possible etc.'''
+    return True
 
 def main():
     game = {}
