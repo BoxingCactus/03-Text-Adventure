@@ -1,2 +1,8 @@
-# 03-Text-Adventure
-01010100 01100101 01111000 01110100 00100000 01000111 01100001 01101101 01100101
+# 03-Text-adventure
+
+This right here is my solution to the text adventure project. It is basically an endless game where you walk around a dragon's small den and just immerse yourself in the environment.
+
+Things to add:
+Interactions
+Some more quirky things
+Easter Eggs

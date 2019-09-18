@@ -1,0 +1,114 @@
+{
+    "verbs": [
+      { "v": "EXITS",   "map": "EXITS" },
+      { "v": "QUIT",    "map": "QUIT"  },
+      { "v": "NORTH",   "map": "NORTH" },
+      { "v": "N",       "map": "NORTH" },
+      { "v": "SOUTH",   "map": "SOUTH" },
+      { "v": "S",       "map": "SOUTH" },
+      { "v": "EAST",    "map": "EAST"  },
+      { "v": "E",       "map": "EAST"  },
+      { "v": "WEST",    "map": "WEST"  },
+      { "v": "W",       "map": "WEST"  }
+    ],
+
+    "rooms": {
+      "START": {
+        "name": "Outside of the Wyrmtooth Cave",
+        "desc": "The musty aroma of kobolds billows from the cave. The expansive maw of the cave lies to the north. Interlocked trees surround every way preventing passage for a human like yourself...",
+        "exits": [
+          {
+            "verb": "NORTH",
+            "target": "LOC2",
+            "condition": ""}
+        ],
+        "inventory": []
+      },
+      "LOC2": {
+        "name": "Inside Wyrmtooth Cave...",
+        "desc": "The walls echo with kobold chittering... Various primative doodles scatter the walls. Some depict big ferocious dragons casting flames across the land... Others... Well... They looked like babies made them. To the west, the smell of delicious meats flows from the room... To the north the smell of brimstone and flames beckons you. To the east, the sound of snoring could be heard...",
+        "exits": [
+          {
+            "verb": "SOUTH",
+            "target": "START",
+            "condition": ""
+          },
+          {
+            "verb": "WEST",
+            "target": "LOC3",
+            "condition": ""
+          },
+          {
+            "verb": "NORTH",
+            "target": "LOC5",
+            "condition": ""
+          },
+          {
+            "verb": "EAST",
+            "target": "LOC4",
+            "condition": ""}
+        ],
+        "inventory": []
+            },
+
+            "LOC3": {
+              "name": "The Grand Dining Hall",
+              "desc": "The sweet sweet smell of apple cider floods your nostrils as you find yourself in a grand dining hall. Rows of tables line the room like toy soldiers. A lone tubby kobold sits at a table sipping from a glass of cider... Seems like there is no where else to go other than the kitchen and the way you just came... And you wouldn't want to be rude to some kobold chefs right?... Oh who am I kidding, I know you will bother the chefs in the kitchen to the north that totally doesn't have an easter egg, nerd.",
+              "exits": [
+                {
+                  "verb": "NORTH",
+                  "target": "LOC6",
+                  "condition": ""
+                },
+                {
+                  "verb": "EAST",
+                  "target": "LOC2",
+                  "condition": ""}
+              ],
+              "inventory": []
+            },
+            "LOC4": {
+              "name": "The Kobold Warrens",
+              "desc": "The smell of old cloth assaults your nostrils as you find yourself in what looks like some kind of warren. Kobolds dash between your ankles as you stare off into the dim corners of the room... You see a lone sleeping kobold resting in what looks deer hide...",
+              "exits": [
+                {
+                  "verb": "WEST",
+                  "target": "LOC2",
+                  "condition": ""}
+              ],
+              "inventory": []
+            },
+            "LOC6": {
+              "name": "The Kitchen",
+              "desc": "R U D E. I deem you to be sentenced to kitchen jail for nerds!",
+              "exits": [],
+              "inventory": []
+            },
+            "LOC7": {
+              "name": "Behind the Throne",
+              "desc": "The smell of flowery candles fills your nostrils as you find a small makeshift shrine. In the center, surrounded by candles, is a picture of some dragon with rock solid abs and under it is the mysterious phrase... Husbando... This is probably some sort of witchcraft that you don't want to mess with nerd. Probably best to get out before she wakes up.",
+              "exits": [
+                {
+                  "verb": "SOUTH",
+                  "target": "LOC5",
+                  "condition": ""}
+              ],
+              "inventory": []
+            },
+            "LOC5": {
+              "name": "The Throne Room",
+              "desc": "A grand looking throne room. Many trophies and decorations line the wall like vines on a wall. Clearly, the centerpiece of the room was the grand throne that seemed to be carved out of ivory. A colossus of a dragon lays on the throne snoozing away...",
+              "exits": [
+                {
+                  "verb": "SOUTH",
+                  "target": "LOC2",
+                  "condition": ""},
+                {
+                    "verb": "NORTH",
+                    "target": "LOC7",
+                    "condition": ""}
+              ],
+              "inventory": []
+            }
+          }
+        }
