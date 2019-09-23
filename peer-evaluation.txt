@@ -1,0 +1,46 @@
+Name: Aaron Worthington
+Date: 09/23/19
+Project: Text Adventure
+Peer's repository: https://github.com/BoxingCactus/03-Text-Adventure.git
+
+
+
+What is something you learned by reviewing your peer's project?
+    Something I learned would just be the skill to read and understand someone else's work. I have never needed to look at anyone else's code and analyze it and 
+    I think overall it is a good experience to have and a good skill to have because in the future, I will have to work with a team and look at someone else's coding style
+    a lot.
+ 
+
+What is something you saw in your peer's project that you would like to apply to your own programming projects?
+    In my peer's project, in game.json, they shortened the code for the verbs and made it a little easier to read, and take up less space.
+In my own projects I would like to do this because it makes it easier to read, and just much easier and simpler to write.
+ 
+
+What suggestions would you have for your peer to improve his/her code?
+    A few suggestions I could think of is readability when running the code. Maybe throw in some new lines inbetween the printed items to make it easier 
+    to read in the terminal, and also some new lines to force it to come down instead of it cutting off words at the end of the lines and move it to the next line.
+    Also, the locations inside of game.json could be more descriptive instead of just saying which number location it is. I did like the storyline though!
+ 
+
+What could have been clearer or better commented?
+    The name of the rooms inside of game.json could have been more clear, possibly more descriptive of what room the player actually is.
+ 
+
+Was there anything in the code that was confusing to you? If so, what?
+    Some of the rooms are not "tabbed" over the same amount as other rooms in the code, and it made it a little difficult to scroll through and see what was actually being written.
+ 
+
+Does the repository contain an appropriate LICENSE?
+    Yes! It is copywritten with the correct year and GitHub username.
+ 
+
+What is something he/she could add to the README.md to make it more descriptive?
+    The markdown file could contain a little backstory about the storyline of the game, so that I could prepare myself for what adventure I am 
+    about to go into! Maybe a little more descriptive on what future goals could be as well.
+ 
+
+Pay a compliment to your peer based on the quality of his/her code.
+    The storyline is fantastic! I felt absorbed into the game that you made, and it was truly interesting to adventure around the digital world
+    that you created. Also, I really like how you shortened the verb section down, it made it easier to read and understand what each different 
+    verb was and what it was mapped to do.
+
